@@ -23,14 +23,15 @@ function init() {
   var colors = [ 0x000000, 0xff0080, 0x8000ff, 0xffffff ];
 	var geometry = new THREE.SphereGeometry( 1, 3, 3 );
 	// var material = new THREE.MeshPhongMaterial( { color: 0xffffff, shading: THREE.FlatShading } );
-  var material = new THREE.PointsMaterial( {
-     size: 1,
-     vertexColors: THREE. VertexColors,
-     depthTest: false,
-     opacity: 1,
-     sizeAttenuation: false,
-     transparent: true
-  } );
+  // var material = new THREE.PointsMaterial( {
+  //    size: 1,
+  //    vertexColors: THREE. VertexColors,
+  //    depthTest: false,
+  //    opacity: 1,
+  //    sizeAttenuation: false,
+  //    transparent: true
+  // } );
+  var material = new THREE.MeshNormalMaterial();
   // geometry.addAttribute( 'color', new THREE.BufferAttribute( colors, 3 ) );
 
   // var material = new THREE.MeshPhongMaterial( {
@@ -39,15 +40,14 @@ function init() {
 	// 			} );
 
 	for ( var i = 0; i < 100; i ++ ) {
-    material = new THREE.PointsMaterial( {
-      color: 0xff00ff,
-      size: 1,
-      vertexColors: THREE. VertexColors,
-      depthTest: false,
-      opacity: 0.2,
-      sizeAttenuation: false,
-      transparent: true
-    });
+    // material = new THREE.PointsMaterial( {
+    //   size: 1,
+    //   vertexColors: THREE. VertexColors,
+    //   depthTest: false,
+    //   opacity: 0.2,
+    //   sizeAttenuation: false,
+    //   transparent: true
+    // });
     // geometry.colors.push( new THREE.Color( colors[ Math.floor( Math.random() * colors.length ) ] ) );
     // geometry.colors.push( new THREE.Color( colors[ Math.floor( Math.random() * colors.length ) ] ) );
 		// material = new THREE.MeshPhongMaterial( { color: 0xffffff * Math.random(), shading: THREE.FlatShading } );

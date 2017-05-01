@@ -6,7 +6,7 @@
 
 }
 
-h1,h2,p {padding: 0 5%;}
+h1,h2,p {padding: 0 5%; font-family: roboto;}
 
 body {
   /*background: url('../public/assets/imagination.png');*/
@@ -14,9 +14,177 @@ body {
   padding:0;
 }
 
-h2 {
+#logo {
+  position: absolute;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#menu {
+  position: absolute;
+  z-index: 1000;
+}
+
+#folders {
+  position: fixed;
+  float: right;
+  right: 0;
+  z-index: 999;
+}
+
+#modal-container {
+  width: 90vw;
+  height: 80vh;
+  margin: 5vh 5vw;
+  position: fixed;
+  overflow-y: scroll;
+  z-index: 1002;
+  background-color: white;
+}
+
+.scrollable {
+  position: relative
+}
+
+body::-webkit-scrollbar {
+  /*color: transparent;*/
+}
+
+#modal-container::-webkit-scrollbar {
+    width: 0.5em;
+}
+
+#modal-container::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    background-color: white;
+}
+
+#modal-container::-webkit-scrollbar-thumb {
+  background-color: black;
+  /*outline: 1px solid black;*/
+}
+
+#modal-header {
+  width: 100%;
+  height: 2em;
+  box-sizing: border-box;
+  top: 0;
+  background-color: white;
+  border: 3px solid black;
+}
+
+#modal-header p {
+  display: inline;
+  float: right;
+  margin:0;
+}
+
+#modal-header button {
+
+}
+
+#project-window-menu{
+  position: fixed;
+  z-index: 1005;
+}
+
+.menu-bar{
+  background-color: white;
+  box-sizing: border-box;
+  height: 5vh;
+  border: 4px solid black;
+  width: 100%
+}
+
+.menu-bar p {
+  margin: 0;
+  float: right;
+}
+
+.notification{
+  background-color: white;
+  position: fixed;
+  left: 30%;
+  z-index: 1001;
+}
+
+.notification h2{
+  background-color: transparent;
+
+}
+
+.window{
+  transition-duration: 0.5s;
+  box-shadow: 10px 10px 100px black;
+}
+
+button {
+  color: red;
+  height: 100%;
+  border: none;
+  width: 5em;
+  background-color: white;
+  color: red;
+  text-shadow: 0px 1px 0px white;
+}
+
+#profile-container {
+  transition-duration: 0.5s;
+  width: 100%;
+  box-shadow: 10px 10px 100px black;
+  height: 95vh;
+  position: fixed;
+  overflow-y: scroll;
+  z-index: 1004;
+  background-color: white;
+}
+
+.folder-item {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 100px;
+}
+
+.folder-item p {
+  font-family: monospace;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  margin-top: -1em;
+  color: white;
+}
+
+.menu-item {
+  display: inline-block;
+list-style-type: none;
+border: 4px ridge;
+background-color: #EEEEEE;
+min-width: 80px;
+}
+
+.hamburger {
+  width: 50px;
+  list-style-type: none;
+  border: 2px ridge;
+}
+
+.ticker__item h2 {
   font-family: 'Press Start 2P';
-  font-size: 5em;
+  font-size: 0.5em;
+  text-shadow: 0 1px 0 #ccc,
+                 0 2px 0 #c9c9c9,
+                 0 3px 0 #bbb,
+                 0 4px 0 #b9b9b9,
+                 0 5px 0 #aaa,
+                 0 6px 1px rgba(0,0,0,.1),
+                 0 0 5px rgba(0,0,0,.1),
+                 0 1px 3px rgba(0,0,0,.3),
+                 0 3px 5px rgba(0,0,0,.2),
+                 0 5px 10px rgba(0,0,0,.25),
+                 0 10px 10px rgba(0,0,0,.2),
+                 0 20px 20px rgba(0,0,0,.15);
 }
 
 @-webkit-keyframes ticker_left {
@@ -77,11 +245,14 @@ h2 {
 }
 .ticker-wrap {
   position: fixed;
-  top: 0;
+  bottom: 0;
   width: 100%;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.0);
   padding-left: 100%;
+  background-color: lightgrey;
+  border: 0.2em outset;
+  z-index: 999;
 }
 
 .ticker-wrap-middle {
@@ -104,8 +275,8 @@ h2 {
 
 .ticker {
   display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
+  height: 2rem;
+  line-height: 0rem;
   white-space: nowrap;
   padding-right: 100%;
   -webkit-animation-iteration-count: infinite;
@@ -121,8 +292,8 @@ h2 {
 
 .ticker_left {
   display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
+  height: 2rem;
+  line-height: 2rem;
   white-space: nowrap;
   padding-right: 100%;
   -webkit-animation-iteration-count: infinite;

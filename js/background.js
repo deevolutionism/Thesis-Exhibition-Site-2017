@@ -17,7 +17,7 @@ function init() {
 	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 1000 );
 	camera.position.z = 400;
 	scene = new THREE.Scene();
-	scene.fog = new THREE.Fog( 0x000000, 1, 1000 );
+	scene.fog = new THREE.Fog( 0xffffff, 300, 700 );
 	object = new THREE.Object3D();
 	scene.add( object );
   var colors = [ 0x000000, 0xff0080, 0x8000ff, 0xffffff ];
@@ -31,7 +31,8 @@ function init() {
   //    sizeAttenuation: false,
   //    transparent: true
   // } );
-  var material = new THREE.MeshNormalMaterial();
+  var material = new THREE.MeshNormalMaterial({color: 0xffffff, wireframe:true, transparent: true});
+	// var material = THREE.MeshBasicMaterial( { color: 0xffffff, wireframe: true, transparent: true } )
   // geometry.addAttribute( 'color', new THREE.BufferAttribute( colors, 3 ) );
 
   // var material = new THREE.MeshPhongMaterial( {

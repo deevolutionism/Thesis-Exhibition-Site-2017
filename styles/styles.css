@@ -20,6 +20,17 @@ body {
   max-width: 100%;
 }
 
+.profile img {
+  max-width: 100px;
+  filter: grayscale(100%);
+  transition-duration: 0.3s;
+}
+
+#profile-image {
+  max-width: 90%;
+  padding: 0 5%;
+}
+
 #menu {
   position: absolute;
   z-index: 1000;

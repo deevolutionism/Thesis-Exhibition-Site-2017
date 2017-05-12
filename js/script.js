@@ -73,16 +73,16 @@ var data = [
     'bio_statement':'Danny Dang is an Asian-American game designer from Minnesota residing in New York. He has a BFA in Design Technology at Parsons School of Design where he focused in game design. During his time at Parsons, he served as the Communications Officer and later the President of the New School Game Club. He believes play is powerful and his passion is using playful interactions to convey socially impactful messages. He is a co-founder of BeyondABC, a social impact games studio, where he acts as a technologist and designer. He has made games about various social issues including gender identity, body image, and the spread of misinformation.',
     'project_title': 'Zer',
     'social_media':[
-    {
-      site: 'instagram',
-      url: 'https://www.instagram.com/dangddanny/',
-      icon_url:'assets/social_media/instagram.svg'
-    },
-    {
-      site: 'twitter',
-      url: 'https://twitter.com/dangddanny',
-      icon_url:'assets/social_media/twitter.svg'
-    }
+      {
+        site: 'instagram',
+        url: 'https://www.instagram.com/dangddanny/',
+        icon_url:'assets/social_media/instagram.svg'
+      },
+      {
+        site: 'twitter',
+        url: 'https://twitter.com/dangddanny',
+        icon_url:'assets/social_media/twitter.svg'
+      }
     ],
     'portfolio_website':'https://dangddanny.com/',
     'project_description': 'Zer is a virtual reality game that aims to provide kids with the toolset they need to recognize fake news. The child plays the role of an evil scientist creating fake news articles. Their goal is to get the article to go viral. By reverse engineering the components that go into a fake article, the child is learning how to recognize false information online. Our goal is to increase kids digital literacy through play.',
@@ -286,13 +286,8 @@ var data = [
     'name': 'Shiqi Shen',
     'profile_photo_url':'DTBFA-12.jpg',
     'bio_statement':'',
-<<<<<<< HEAD
     'project_title': 'The Mindful Gym',
-    'social_media':{},
-=======
-    'project_title': 'Untitled',
     'social_media':[],
->>>>>>> 6c8e5508c0289e8bbe81da7e82e0cc618f33f933
     'portfolio_website':'',
     'project_description': 'The Mindful Gym is an immersive environment tailored to those suffering from symptoms of anxiety. The main objective of The Mindful Gym is to engage the senses through lighting, smell, and physical space, creating an atmosphere most conducive to achieving a state of relaxation and concentrated mindfulness.',
     'photos_urls':[]
@@ -301,19 +296,16 @@ var data = [
     'id':'sean',
     'name': 'Sean',
     'profile_photo_url':'DTBFA-3.jpg',
-<<<<<<< HEAD
     'bio_statement':'Sean Hughes is a New York City based designer and student. For the past three years, his work with Cuneo and Co. LLC has exposed him to a variety of fields, clients, and  projects.  Sean is currently attending The New School in New York City, specifically Parsons School of Design and Eugene Lang College of Liberal Arts , where He is pursuing a bachelor of fine arts degree in Design and Technology and a bachelor of arts degree in Interdisciplinary Science. His interests include graphic design, user experience design, creative coding, interaction design, data visualization, energy, the environment, and photography.',
     'project_title': 'The Comparative Impact Project',
-    'social_media':{
-      'linkedin': {url:'https://www.linkedin.com/in/sean-hughes-31232412b/',icon_url:'assets/social_media/linkedin.svg'}
-    },
+    'social_media':[
+      {
+        site:'linkedin',
+        url:'https://www.linkedin.com/in/sean-hughes-31232412b/',
+        icon_url:'assets/social_media/linkedin.svg'
+      }
+    ],
     'portfolio_website':'www.seanhughes.work',
-=======
-    'bio_statement':'',
-    'project_title': 'untitled',
-    'social_media':[],
-    'portfolio_website':'',
->>>>>>> 6c8e5508c0289e8bbe81da7e82e0cc618f33f933
     'project_description': 'My project is an interactive informational web-based tool focusing on electrical energy sources and their related emissions. The major goals for my work are: making the information more accessible through user input, making the results simple to understand through data visualization, and the promotion of critical comparison of energy sources through interaction and manipulation. The project is intended to be used in the educational/classroom domain, with a specific age group of high school to university',
     'photos_urls':[]
   },

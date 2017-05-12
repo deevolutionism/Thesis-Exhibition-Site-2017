@@ -71,7 +71,7 @@ var data = [
     'name': 'Danny Dang',
     'profile_photo_url':'',
     'bio_statement':'',
-    'project_title': 'Untitled',
+    'project_title': 'Zer',
     'social_media':[],
     'portfolio_website':'',
     'project_description': 'Null',
@@ -190,9 +190,9 @@ var data = [
   },
   {
     'id':'kim',
-    'name': 'Kim Koehler',
+    'name': 'Kim K&ouml;hler',
     'profile_photo_url':'DTBFA-6.jpg',
-    'bio_statement':'Kim Köhler is a designer within a wide variety of fields. Although strong skills within everything from creative coding & computing, interactive installations, graphic design, branding, storytelling, web development, UX, UI, circuit design, 3D art, CAD, CAM & 3D printing, what really makes him unique is his profound abilities to problem solve, create concepts & tell stories through visual form. The combination of these skills, being fluent in a wide variety of design languages, a reiterated process to quickly learn new technology & a successful past in Communication, Sales & Management, makes Kim well-tailored for a future of creatively directing most fields of design.',
+    'bio_statement':'Kim K&ouml;hler is a designer within a wide variety of fields. Although strong skills within everything from creative coding & computing, interactive installations, graphic design, branding, storytelling, web development, UX, UI, circuit design, 3D art, CAD, CAM & 3D printing, what really makes him unique is his profound abilities to problem solve, create concepts & tell stories through visual form. The combination of these skills, being fluent in a wide variety of design languages, a reiterated process to quickly learn new technology & a successful past in Communication, Sales & Management, makes Kim well-tailored for a future of creatively directing most fields of design.',
     'project_title': 'burdock.js',
     'social_media':[
       {
@@ -267,7 +267,7 @@ var data = [
       }
     ],
     'portfolio_website':'http://rafialam.com',
-    'project_description': 'Null',
+    'project_description': 'Welcome to the world of graffiti. Join a crew and make your way across the city leaving your mark while on the path to be All-City. Uses custom Playstation Move based Spray Can Controller',
     'photos_urls':[]
   },
   {

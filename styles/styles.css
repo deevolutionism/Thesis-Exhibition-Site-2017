@@ -6,7 +6,7 @@
 
 }
 
-h1,h2,p {padding: 0 5%; font-family: roboto;}
+h1,h2,p,td {font-family: roboto; text-align: justify;}
 
 body {
   /*background: url('../public/assets/imagination.png');*/
@@ -27,8 +27,12 @@ body {
 }
 
 #profile-image {
-  max-width: 90%;
-  padding: 0 5%;
+  max-width: 100%;
+  /*padding: 0 5%;*/
+}
+
+#profile-project{
+  padding: 2em;
 }
 
 #menu {
@@ -134,7 +138,7 @@ button {
   height: 100%;
   border: none;
   width: 5em;
-  background-color: white;
+  background-color: transparent;
   color: red;
   text-shadow: 0px 1px 0px white;
 }
@@ -148,6 +152,11 @@ button {
   overflow-y: scroll;
   z-index: 1004;
   background-color: white;
+}
+
+#profile-header {
+  columns: 2;
+  padding: 2em;
 }
 
 .folder-item {
@@ -179,6 +188,17 @@ min-width: 80px;
   width: 50px;
   list-style-type: none;
   border: 2px ridge;
+}
+
+#social_media {
+  margin: 0;
+  padding: 0;
+}
+
+.social_media_links {
+  width: 64px;
+  display: inline-block;
+  margin: 0 1em 0 0;
 }
 
 .ticker__item h2 {
@@ -323,61 +343,3 @@ min-width: 80px;
   font-size: 2rem;
   color: white;
 }
-
-
-
-
-
-/*@-webkit-keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-@keyframes ticker {
-  0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-    visibility: visible;
-  }
-  100% {
-    -webkit-transform: translate3d(-100%, 0, 0);
-    transform: translate3d(-100%, 0, 0);
-  }
-}
-.ticker-wrap {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.0);
-  padding-left: 100%;
-}
-
-.ticker {
-  display: inline-block;
-  height: 4rem;
-  line-height: 4rem;
-  white-space: nowrap;
-  padding-right: 100%;
-  -webkit-animation-iteration-count: infinite;
-  animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
-  animation-timing-function: linear;
-  -webkit-animation-name: ticker;
-  animation-name: ticker;
-  -webkit-animation-duration: 30s;
-  animation-duration: 30s;
-}
-.ticker__item {
-  display: inline-block;
-  padding: 0 2rem;
-  font-size: 2rem;
-  color: white;
-}
-*/

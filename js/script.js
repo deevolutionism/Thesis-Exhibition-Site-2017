@@ -36,7 +36,7 @@ var data = [
     ],
     'portfolio_website':'http://adammcbride.me',
     'project_description': 'Smartphones have transformed the way that most people communicate and interact. A great deal of in-person interaction has been replaced with virtual interactions, leaving people connected virtually, but ultimately separated by the very devices that are supposed to be bringing them together. The PlanR app intends to show how, with a simple shift in user experience design approach, an app can both connect people virtually and in the real world, but without the pretense of other dating or “hookup” apps.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'zanzie',
@@ -64,18 +64,18 @@ var data = [
     ],
     'portfolio_website':'http://andrewbenson.info',
     'project_description': 'Become the mightiest villain in this tabletop strategy card game by out-scheming all of your opponents. As one of the world\'s most powerful super villains, you must recruit a loyal following of henchmen and goons to help you complete a number of dastardly schemes. Fellow villains and undercover heroes alike will stop at nothing to watch your evil empire crash and burn.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'danny',
     'name': 'Danny Dang',
     'profile_photo_url':'',
-    'bio_statement':'',
+    'bio_statement':'Danny Dang is an Asian-American game designer from Minnesota residing in New York. He has a BFA in Design Technology at Parsons School of Design where he focused in game design. During his time at Parsons, he served as the Communications Officer and later the President of the New School Game Club. He believes play is powerful and his passion is using playful interactions to convey socially impactful messages. He is a co-founder of BeyondABC, a social impact games studio, where he acts as a technologist and designer. He has made games about various social issues including gender identity, body image, and the spread of misinformation.',
     'project_title': 'Zer',
     'social_media':[],
-    'portfolio_website':'',
-    'project_description': 'Null',
-    'photos_urls':[]
+    'portfolio_website':'https://dangddanny.com/',
+    'project_description': 'Zer is a virtual reality game that aims to provide kids with the toolset they need to recognize fake news. The child plays the role of an evil scientist creating fake news articles. Their goal is to get the article to go viral. By reverse engineering the components that go into a fake article, the child is learning how to recognize false information online. Our goal is to increase kids digital literacy through play.',
+    'photo_urls':[]
   },
   {
     'id':'elizabeth',
@@ -86,7 +86,7 @@ var data = [
     'social_media':[],
     'portfolio_website':'http://www.elizabethperalta.com',
     'project_description': '“Sancocho: Between Here & There,” is a multimedia project elaborating the complexity of identity in the Afro-Caribbean communities of NYC. Focusing on people of Puerto Rican and Dominican descent through their stories issues surrounding self image, discrimination, colorism, and heteronormativity are discussed through conversation. The project explores the impact of immigration on the individual\'s perception of who they are.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'enayet',
@@ -97,13 +97,13 @@ var data = [
     'social_media':[],
     'portfolio_website':'',
     'project_description': 'The individually specific ornamentation of rickshaws and the raw spirituality of Baul music, are two of the most vibrant cultural traditions unique to Bangladesh. The organic flow of Rickshaw and Baul culture, sits in stark contrast to the hard lines of the warped, grid locked structure of Dhaka city. By processing these motifs through warped digital grid structures and feedback loops, this project aims to reflect on the feeling of these endangered traditions being processed through the industrial churn of Dhaka city. For the average Rickshaw Wallah (Bengali for rickshaw driver) or Baul, there is seldom a sense of home.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'gentry',
     'name': 'Gentry Demchak',
-    'profile_photo_url':'',
-    'bio_statement':'',
+    'profile_photo_url':'DTBFA-19.jpg',
+    'bio_statement':'Gentry Demchak is a maker, a generalist, a Creative Technologist. Currently, he focuses his efforts towards shaping the humans through virtual communities. He likes all things Sci-Fi. Fun Fact: His name was taken from a character in Mona Lisa Overdrive, the third book in Willam Gibsons Sprawl Trillogy.',
     'project_title': 'Switch Feed',
     'social_media':[
       {
@@ -113,8 +113,8 @@ var data = [
       }
     ],
     'portfolio_website':'https://gentrydemchak.com',
-    'project_description':'Switch Feed is a browser extension that adds an anonymous posting board to your Facebook News Feed. It\'s meant to pop users outside of their comfortable social bubbles and place them in a liberating space where other Switch Feed Facebook users can chat, share and engaged with each other on topics ranging from politics, technology, Q/A, sports, and others.',
-    'photos_urls':[]
+    'project_description':'Switch Feed is a browser extension that adds an anonymous posting board to your Facebook News Feed. It\'s meant to pop users outside of their comfortable social bubbles and place them in a liberating space where other Switch Feed Facebook users can chat, share and engaged with each other on topics ranging from politics, technology, Q/A, sports, and others. Download the extension at <a href="http://switchfeed.net">http://switchfeed.net</a>.',
+    'photo_urls':['booth-diagram.png','switch_feed_screen_shot.png']
   },
   {
     'id':'jasmine',
@@ -136,7 +136,7 @@ var data = [
     ],
     'portfolio_website':'',
     'project_description': 'Tale Rush is an instance based running game in which you explore fairy tales as Yan, a girl that can blurs the lines between reality, and the fantasy of the words written in books. Being one of the best runners in her own world, jumping in the book and running is her way to make the clock move forward for fairy tales to come alive. Interacting with fairy tales by running through their described worlds is how Yan helps the fairy tales reach a happy ending.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'johnny',
@@ -158,7 +158,7 @@ var data = [
     ],
     'portfolio_website':'',
     'project_description': 'Emoter is a chatbot with empathy, built from a sentiment analyzer classifying ten thousand quotes from literature and film. The dialog fed into this chatbot comes from my Facebook messages from the years 2008-2013. Thus, the experience of the conversation essentially acts like an interactive diary.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'kate',
@@ -175,7 +175,7 @@ var data = [
     ],
     'portfolio_website':'http://k8wallace.com',
     'project_description': 'Zer is a virtual reality game that aims to provide kids with the toolset they need to recognize fake news. The child plays the role of an evil scientist creating fake news articles. Their goal is to get the article to go viral. By reverse engineering the components that go into a fake article, the child is learning how to recognize false information online. Our goal is to increase kids digital literacy through play.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'keiji',
@@ -186,7 +186,7 @@ var data = [
     'social_media':[],
     'portfolio_website':'',
     'project_description': 'Null',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'kim',
@@ -208,7 +208,7 @@ var data = [
     ],
     'portfolio_website':'http://kohlerkim.com',
     'project_description': 'Null',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'marco',
@@ -246,7 +246,7 @@ var data = [
     'social_media':[],
     'portfolio_website':'',
     'project_description': '"Climb" is a third-person exploration game set in an alien world. You play as Avian, of the Bird People. We find Avian ascending an ancient tower, where more might be discovered as to who they are, and more importantly why they are climbing. This prototype is a starting point for conversations about the ability to "be present", our place in the greater and smaller perceptual universe, and the human need to know our own limits.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'rafi',
@@ -268,29 +268,29 @@ var data = [
     ],
     'portfolio_website':'http://rafialam.com',
     'project_description': 'Welcome to the world of graffiti. Join a crew and make your way across the city leaving your mark while on the path to be All-City. Uses custom Playstation Move based Spray Can Controller',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'juno',
     'name': 'Shiqi Shen',
     'profile_photo_url':'DTBFA-12.jpg',
     'bio_statement':'',
-    'project_title': 'Untitled',
+    'project_title': 'The Mindful Gym',
     'social_media':[],
     'portfolio_website':'',
     'project_description': 'The Mindful Gym is an immersive environment tailored to those suffering from symptoms of anxiety. The main objective of The Mindful Gym is to engage the senses through lighting, smell, and physical space, creating an atmosphere most conducive to achieving a state of relaxation and concentrated mindfulness.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'sean',
     'name': 'Sean',
     'profile_photo_url':'DTBFA-3.jpg',
-    'bio_statement':'',
+    'bio_statement':'Sean Hughes is a New York City based designer and student. For the past three years, his work with Cuneo and Co. LLC has exposed him to a variety of fields, clients, and  projects.  Sean is currently attending The New School in New York City, specifically Parsons School of Design and Eugene Lang College of Liberal Arts , where He is pursuing a bachelor of fine arts degree in Design and Technology and a bachelor of arts degree in Interdisciplinary Science. His interests include graphic design, user experience design, creative coding, interaction design, data visualization, energy, the environment, and photography.',
     'project_title': 'untitled',
     'social_media':[],
-    'portfolio_website':'',
+    'portfolio_website':'https://www.seanhughes.work/',
     'project_description': 'My project is an interactive informational web-based tool focusing on electrical energy sources and their related emissions. The major goals for my work are: making the information more accessible through user input, making the results simple to understand through data visualization, and the promotion of critical comparison of energy sources through interaction and manipulation. The project is intended to be used in the educational/classroom domain, with a specific age group of high school to university',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'yumeng',
@@ -307,7 +307,7 @@ var data = [
     ],
     'portfolio_website':'http://yumeng-wang.com',
     'project_description': 'KAIR (Klapaucius Artificial Intelligence Resort) 2030 is a multimedia interactive installation with monologues from future emulation workers in the year of 2030. Through an uncanny narrative of a recreational resort for Artificial Intelligence designed by human experts, KAIR 2030 speculates on new types of relationships between human and Artificial Intelligence, if we can lift the anthropocentric expectations for A.I. - imposing human characteristics and measuring their capacities based on human knowledge.',
-    'photos_urls':[]
+    'photo_urls':[]
   }
 ]
 
@@ -351,13 +351,24 @@ var attachEventListeners = () => {
     document.getElementById(data[i].id).onclick = () => {
       $('#project-window-name').text(data[i].name)
       $('#name').text(data[i].name)
+      if(data[i].portfolio_website){
+        $('#portfolio_website').html('Portfolio Website')
+        $('#portfolio_website').attr('href',data[i].portfolio_website)
+      } else {
+        $('#portfolio_website').html('')
+      }
       $('#bio').text(data[i].bio_statement)
-      $('#project_description').text(data[i].project_description)
+      $('#project_description').html(`<p>${data[i].project_description}</p>`)
       $('#project_title').text(data[i].project_title)
       if(data[i].social_media){
         $('#social_media').html('') //clear
         data[i].social_media.forEach( (link) => {
           $('#social_media').append(`<li class="social_media_links"><a href='${link.url}'><img src='${link.icon_url}' alt='${link.site}'/></a> </li>`)
+        })
+      }
+      if(data[i].photo_urls){
+        data[i].photo_urls.forEach((url) => {
+          $('#project_images').append(`<img class="project_photo" src="assets/content/${url}" alt="${data[i].project_title}"/>`)
         })
       }
       $('#profile-image').attr('src',`assets/profiles/${data[i].profile_photo_url}`)

@@ -333,7 +333,7 @@ var data = [
     ],
     'portfolio_website':'www.seanhughes.work',
     'project_description': 'My project is an interactive informational web-based tool focusing on electrical energy sources and their related emissions. The major goals for my work are: making the information more accessible through user input, making the results simple to understand through data visualization, and the promotion of critical comparison of energy sources through interaction and manipulation. The project is intended to be used in the educational/classroom domain, with a specific age group of high school to university',
-    'photo_urls':[]
+    'photo_urls':['compImpProj-1.jpg']
   },
   {
     'id':'yumeng',

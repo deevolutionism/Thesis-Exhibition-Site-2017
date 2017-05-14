@@ -130,7 +130,8 @@ body::-webkit-scrollbar {
 
 .notification h2{
   background-color: transparent;
-
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .window{
@@ -139,7 +140,6 @@ body::-webkit-scrollbar {
 }
 
 button {
-  color: red;
   height: 100%;
   border: none;
   width: 5em;

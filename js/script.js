@@ -64,7 +64,12 @@ var data = [
     ],
     'portfolio_website':'http://andrewbenson.info',
     'project_description': 'Become the mightiest villain in this tabletop strategy card game by out-scheming all of your opponents. As one of the world\'s most powerful super villains, you must recruit a loyal following of henchmen and goons to help you complete a number of dastardly schemes. Fellow villains and undercover heroes alike will stop at nothing to watch your evil empire crash and burn.',
-    'photo_urls':[]
+    'photo_urls':[
+      'benson-1-cards.png',
+      'benson-2-villains_heroes.png',
+      'benson-3-henchmen.png',
+      'benson-4-shcemes.png'
+    ]
   },
   {
     'id':'danny',
@@ -86,7 +91,12 @@ var data = [
     ],
     'portfolio_website':'https://dangddanny.com/',
     'project_description': 'Zer is a virtual reality game that aims to provide kids with the toolset they need to recognize fake news. The child plays the role of an evil scientist creating fake news articles. Their goal is to get the article to go viral. By reverse engineering the components that go into a fake article, the child is learning how to recognize false information online. Our goal is to increase kids digital literacy through play.',
-    'photos_urls':[]
+    'photos_urls':[
+      'zer1.png',
+      'zer2.png',
+      'zer3.png',
+      'zer4.png'
+    ]
   },
   {
     'id':'elizabeth',
@@ -125,7 +135,10 @@ var data = [
     ],
     'portfolio_website':'https://gentrydemchak.com',
     'project_description':'Switch Feed is a browser extension that adds an anonymous posting board to your Facebook News Feed. It\'s meant to pop users outside of their comfortable social bubbles and place them in a liberating space where other Switch Feed Facebook users can chat, share and engaged with each other on topics ranging from politics, technology, Q/A, sports, and others. Download the extension at <a href="http://switchfeed.net">http://switchfeed.net</a>.',
-    'photo_urls':['booth-diagram.png','switch_feed_screen_shot.png']
+    'photo_urls':[
+      'booth-diagram.png',
+      'switch_feed_screen_shot.png'
+    ]
   },
   {
     'id':'jasmine',
@@ -169,7 +182,11 @@ var data = [
     ],
     'portfolio_website':'',
     'project_description': 'Emoter is a chatbot with empathy, built from a sentiment analyzer classifying ten thousand quotes from literature and film. The dialog fed into this chatbot comes from my Facebook messages from the years 2008-2013. Thus, the experience of the conversation essentially acts like an interactive diary.',
-    'photo_urls':[]
+    'photo_urls':[
+      'johnny-1.png',
+      'johnny-2.png',
+      'johnny-3.png'
+    ]
   },
   {
     'id':'kate',
@@ -186,7 +203,12 @@ var data = [
     ],
     'portfolio_website':'http://k8wallace.com',
     'project_description': 'Zer is a virtual reality game that aims to provide kids with the toolset they need to recognize fake news. The child plays the role of an evil scientist creating fake news articles. Their goal is to get the article to go viral. By reverse engineering the components that go into a fake article, the child is learning how to recognize false information online. Our goal is to increase kids digital literacy through play.',
-    'photo_urls':[]
+    'photo_urls':[
+      'zer1.png',
+      'zer2.png',
+      'zer3.png',
+      'zer4.png'
+    ]
   },
   {
     'id':'keiji',
@@ -290,7 +312,11 @@ var data = [
     'social_media':[],
     'portfolio_website':'',
     'project_description': 'The Mindful Gym is an immersive environment tailored to those suffering from symptoms of anxiety. The main objective of The Mindful Gym is to engage the senses through lighting, smell, and physical space, creating an atmosphere most conducive to achieving a state of relaxation and concentrated mindfulness.',
-    'photo_urls':[]
+    'photo_urls':[
+      'juno-1.png',
+      'juno-2.png',
+      'juno-3.png'
+    ]
   },
   {
     'id':'sean',
@@ -348,9 +374,7 @@ var closeNotification = () => {
   $('#draggable').css('transform','scale(0.0)');
 }
 
-// $('.ui.modal')
-// .modal('show')
-// ;
+
 $(document).ready( () => {
 
   $( function() {
@@ -385,7 +409,7 @@ var attachEventListeners = () => {
       }
       if(data[i].photo_urls){
         data[i].photo_urls.forEach((url) => {
-          $('#project_images').append(`<img class="project_photo" src="assets/content/${url}" alt="${data[i].project_title}"/>`)
+          $('#project_images').append(`<img class="project_photo" src="assets/content/${data[i].id}/${url}" alt="${data[i].project_title}"/>`)
         })
       }
       $('#profile-image').attr('src',`assets/profiles/${data[i].profile_photo_url}`)

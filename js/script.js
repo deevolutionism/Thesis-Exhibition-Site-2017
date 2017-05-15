@@ -68,13 +68,16 @@ var data = [
       'benson-1-cards.png',
       'benson-2-villains_heroes.png',
       'benson-3-henchmen.png',
-      'benson-4-shcemes.png'
+      'benson-4-schemes.png'
+    ],
+    'video_url':[
+      'https://drive.google.com/file/d/0B5Xpch8l4NHPVm9YVmd0YTBaU28/preview'
     ]
   },
   {
     'id':'danny',
     'name': 'Danny Dang',
-    'profile_photo_url':'',
+    'profile_photo_url':'BFADT-16.jpg',
     'bio_statement':'Danny Dang is an Asian-American game designer from Minnesota residing in New York. He has a BFA in Design Technology at Parsons School of Design where he focused in game design. During his time at Parsons, he served as the Communications Officer and later the President of the New School Game Club. He believes play is powerful and his passion is using playful interactions to convey socially impactful messages. He is a co-founder of BeyondABC, a social impact games studio, where he acts as a technologist and designer. He has made games about various social issues including gender identity, body image, and the spread of misinformation.',
     'project_title': 'Zer',
     'social_media':[
@@ -102,12 +105,14 @@ var data = [
     'id':'elizabeth',
     'name': 'Elizabeth Peralta',
     'profile_photo_url':'DTBFA-7.jpg',
-    'bio_statement':'Elizabeth Peralta is a New York native multimedia artist and designer. Her work focuses on creating an environment where users can interact with a narrative driven projects. Her projects largely focus on the complexities surrounding identity and having the user learn about themselves and others in the process. Using play and exploration in the worlds she creates invites users to have a dialogue about topics that are often uncomfortable to talk about. Peralta believes that play is not only for children and use it to make a space that allows adults to be vulnerable and empathetic to others.',
+    'bio_statement':'',
     'project_title': 'Sancocho: Between Here & There',
     'social_media':[],
     'portfolio_website':'http://www.elizabethperalta.com',
     'project_description': '“Sancocho: Between Here & There,” is a multimedia project elaborating the complexity of identity in the Afro-Caribbean communities of NYC. Focusing on people of Puerto Rican and Dominican descent through their stories issues surrounding self image, discrimination, colorism, and heteronormativity are discussed through conversation. The project explores the impact of immigration on the individual\'s perception of who they are.',
-    'photo_urls':['SancochoHereAndThere.png']
+    'photo_urls':[
+      'elizabeth-1.png'
+    ]
   },
   {
     'id':'enayet',
@@ -123,7 +128,7 @@ var data = [
   {
     'id':'gentry',
     'name': 'Gentry Demchak',
-    'profile_photo_url':'DTBFA-19.jpg',
+    'profile_photo_url':'DTBFA-18.jpg',
     'bio_statement':'Gentry Demchak is a maker, a generalist, a Creative Technologist. Currently, he focuses his efforts towards shaping the humans through virtual communities. He likes all things Sci-Fi. Fun Fact: His name was taken from a character in Mona Lisa Overdrive, the third book in Willam Gibsons Sprawl Trillogy.',
     'project_title': 'Switch Feed',
     'social_media':[
@@ -143,7 +148,7 @@ var data = [
   {
     'id':'jasmine',
     'name': 'Jasmine Martinez',
-    'profile_photo_url':'',
+    'profile_photo_url':'BFADT-17.jpg',
     'bio_statement':'Jasmine Martinez is a student at Parsons New School of Design in the program of Design and Technology in the Bachelor of Fine Arts. She\'s a game designer using the Unity Engine to bring her games to life; as well as using the Maya 3-D modeling program to explore animations. Martinez\'s last collaborative project was a game called Kodama about  a playful tree spirit and she plans to make more games exploring fun little themes such as her latest project Fairy Tale Rush.',
     'project_title': 'Tale Rush',
     'social_media':[
@@ -268,7 +273,10 @@ var data = [
     ],
     'portfolio_website':'https://www.marcoweibel.com',
     'project_description': 'Curation to Creation is an exploration of unconventional processes and techniques within the realm of live electronic music performance to develop an original and personal workflow that allows for innovation and improvisation. My goal is to explore a mix of tools, methods, and hardware that compliment my own existing skill set of Deejaying but push the boundaries of performance into a new realm of uniqueness.',
-    'photo_urls':['marco/CurationToCreation_.png','marco/CurationToCreation.png']
+    'photo_urls':[
+      'marco-1.png',
+      'marco-2.png'
+    ]
   },
   {
     'id':'orien',
@@ -408,9 +416,15 @@ var attachEventListeners = () => {
         })
       }
       if(data[i].photo_urls){
+        $('#project_images').html('')
+        if(data[i].video_url){
+          $('#project_images').append(`<iframe src="${data[i].video_url}" width="100%" height="768px"></iframe>`)
+        }
         data[i].photo_urls.forEach((url) => {
           $('#project_images').append(`<img class="project_photo" src="assets/content/${data[i].id}/${url}" alt="${data[i].project_title}"/>`)
         })
+      } else {
+        $('#project_images').html('')
       }
       $('#profile-image').attr('src',`assets/profiles/${data[i].profile_photo_url}`)
       $('#profile-container').css('transform','scale(1.0)')

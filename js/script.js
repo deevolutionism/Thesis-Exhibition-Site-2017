@@ -94,7 +94,7 @@ var data = [
     ],
     'portfolio_website':'https://dangddanny.com/',
     'project_description': 'Zer is a virtual reality game that aims to provide kids with the toolset they need to recognize fake news. The child plays the role of an evil scientist creating fake news articles. Their goal is to get the article to go viral. By reverse engineering the components that go into a fake article, the child is learning how to recognize false information online. Our goal is to increase kids digital literacy through play.',
-    'photos_urls':[
+    'photo_urls':[
       'zer1.png',
       'zer2.png',
       'zer3.png',
@@ -160,7 +160,7 @@ var data = [
       {
         site:'facebook',
         url:'https://www.facebook.com/Jasminemartinez026',
-        icon_url:'assets/social_media/github.svg'
+        icon_url:'assets/social_media/facebook.svg'
       }
     ],
     'portfolio_website':'',
@@ -228,9 +228,9 @@ var data = [
   },
   {
     'id':'kim',
-    'name': 'Kim K&ouml;hler',
+    'name': 'Kim Köhler',
     'profile_photo_url':'DTBFA-6.jpg',
-    'bio_statement':'Kim K&ouml;hler is a designer within a wide variety of fields. Although strong skills within everything from creative coding & computing, interactive installations, graphic design, branding, storytelling, web development, UX, UI, circuit design, 3D art, CAD, CAM & 3D printing, what really makes him unique is his profound abilities to problem solve, create concepts & tell stories through visual form. The combination of these skills, being fluent in a wide variety of design languages, a reiterated process to quickly learn new technology & a successful past in Communication, Sales & Management, makes Kim well-tailored for a future of creatively directing most fields of design.',
+    'bio_statement':'Kim Köhler is a designer within a wide variety of fields. Although strong skills within everything from creative coding & computing, interactive installations, graphic design, branding, storytelling, web development, UX, UI, circuit design, 3D art, CAD, CAM & 3D printing, what really makes him unique is his profound abilities to problem solve, create concepts & tell stories through visual form. The combination of these skills, being fluent in a wide variety of design languages, a reiterated process to quickly learn new technology & a successful past in Communication, Sales & Management, makes Kim well-tailored for a future of creatively directing most fields of design.',
     'project_title': 'burdock.js',
     'social_media':[
       {
@@ -246,7 +246,7 @@ var data = [
     ],
     'portfolio_website':'http://kohlerkim.com',
     'project_description': 'burdock.js is a tool created for developing applications in which the participating devices can recoqnize where in space another device is positioned in relation to itself. A versatile tool which makes it easy to create different forms of combined canvases over multiple devices. The tool is versatile enough to recreate new forms during the use of the application, making it perfect for experimental games and collaboration tools. Soon to be an open source library for Javascript developers.',
-    'photos_urls':[]
+    'photo_urls':[]
   },
   {
     'id':'marco',
@@ -287,7 +287,7 @@ var data = [
     'social_media':[],
     'portfolio_website':'',
     'project_description': '"Climb" is a third-person exploration game set in an alien world. You play as Avian, of the Bird People. We find Avian ascending an ancient tower, where more might be discovered as to who they are, and more importantly why they are climbing. This prototype is a starting point for conversations about the ability to "be present", our place in the greater and smaller perceptual universe, and the human need to know our own limits.',
-    'photo_urls':[]
+    'photo_urls':['ClimbScreenShot.png']
   },
   {
     'id':'rafi',
@@ -321,9 +321,9 @@ var data = [
     'portfolio_website':'',
     'project_description': 'The Mindful Gym is an immersive environment tailored to those suffering from symptoms of anxiety. The main objective of The Mindful Gym is to engage the senses through lighting, smell, and physical space, creating an atmosphere most conducive to achieving a state of relaxation and concentrated mindfulness.',
     'photo_urls':[
-      'juno-1.png',
-      'juno-2.png',
-      'juno-3.png'
+      'juno-1.jpg',
+      'juno-2.jpg',
+      'juno-3.jpg'
     ]
   },
   {
@@ -415,6 +415,8 @@ var attachEventListeners = () => {
           $('#social_media').append(`<li class="social_media_links"><a href='${link.url}'><img src='${link.icon_url}' alt='${link.site}'/></a> </li>`)
         })
       }
+      console.log(data[i]['photo_urls']);
+      console.log(data[i].id + " " + i);
       if(data[i].photo_urls){
         $('#project_images').html('')
         if(data[i].video_url){

@@ -98,7 +98,8 @@ body::-webkit-scrollbar {
 #modal-header p {
   display: inline;
   float: right;
-  margin:0;
+  margin:0 10px 0 0;
+  line-height: 2em;
 }
 
 #modal-header button {

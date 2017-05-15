@@ -77,7 +77,7 @@ var data = [
   {
     'id':'danny',
     'name': 'Danny Dang',
-    'profile_photo_url':'BFADT-16.jpg',
+    'profile_photo_url':'DTBFA-16.jpg',
     'bio_statement':'Danny Dang is an Asian-American game designer from Minnesota residing in New York. He has a BFA in Design Technology at Parsons School of Design where he focused in game design. During his time at Parsons, he served as the Communications Officer and later the President of the New School Game Club. He believes play is powerful and his passion is using playful interactions to convey socially impactful messages. He is a co-founder of BeyondABC, a social impact games studio, where he acts as a technologist and designer. He has made games about various social issues including gender identity, body image, and the spread of misinformation.',
     'project_title': 'Zer',
     'social_media':[
@@ -148,7 +148,7 @@ var data = [
   {
     'id':'jasmine',
     'name': 'Jasmine Martinez',
-    'profile_photo_url':'BFADT-17.jpg',
+    'profile_photo_url':'DTBFA-17.jpg',
     'bio_statement':'Jasmine Martinez is a student at Parsons New School of Design in the program of Design and Technology in the Bachelor of Fine Arts. She\'s a game designer using the Unity Engine to bring her games to life; as well as using the Maya 3-D modeling program to explore animations. Martinez\'s last collaborative project was a game called Kodama about  a playful tree spirit and she plans to make more games exploring fun little themes such as her latest project Fairy Tale Rush.',
     'project_title': 'Tale Rush',
     'social_media':[

@@ -102,12 +102,12 @@ var data = [
     'id':'elizabeth',
     'name': 'Elizabeth Peralta',
     'profile_photo_url':'DTBFA-7.jpg',
-    'bio_statement':'',
+    'bio_statement':'Elizabeth Peralta is a New York native multimedia artist and designer. Her work focuses on creating an environment where users can interact with a narrative driven projects. Her projects largely focus on the complexities surrounding identity and having the user learn about themselves and others in the process. Using play and exploration in the worlds she creates invites users to have a dialogue about topics that are often uncomfortable to talk about. Peralta believes that play is not only for children and use it to make a space that allows adults to be vulnerable and empathetic to others.',
     'project_title': 'Sancocho: Between Here & There',
     'social_media':[],
     'portfolio_website':'http://www.elizabethperalta.com',
     'project_description': '“Sancocho: Between Here & There,” is a multimedia project elaborating the complexity of identity in the Afro-Caribbean communities of NYC. Focusing on people of Puerto Rican and Dominican descent through their stories issues surrounding self image, discrimination, colorism, and heteronormativity are discussed through conversation. The project explores the impact of immigration on the individual\'s perception of who they are.',
-    'photo_urls':[]
+    'photo_urls':['SancochoHereAndThere.png']
   },
   {
     'id':'enayet',
@@ -268,7 +268,7 @@ var data = [
     ],
     'portfolio_website':'https://www.marcoweibel.com',
     'project_description': 'Curation to Creation is an exploration of unconventional processes and techniques within the realm of live electronic music performance to develop an original and personal workflow that allows for innovation and improvisation. My goal is to explore a mix of tools, methods, and hardware that compliment my own existing skill set of Deejaying but push the boundaries of performance into a new realm of uniqueness.',
-    'photo_urls':''
+    'photo_urls':['marco/CurationToCreation_.png','marco/CurationToCreation.png']
   },
   {
     'id':'orien',

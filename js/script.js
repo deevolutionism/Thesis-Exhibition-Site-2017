@@ -45,7 +45,12 @@ var data = [
     'bio_statement':'',
     'project_title': 'zanzies title',
     'project_description': 'zanzies description',
-    'photo_urls':[],
+    'photo_urls':[
+      'zanzie-1.gif',
+      'zanzie-2.gif',
+      'zanzie-3.gif',
+      'zanzie-4.gif'
+    ],
     'social_media':[],
     'portfolio_website':'',
   },
